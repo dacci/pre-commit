@@ -1,0 +1,7 @@
+- id: cargo-test
+  name: cargo test
+  description: Runs cargo test
+  entry: cargo test
+  language: system
+  types: [rust]
+  pass_filenames: false
